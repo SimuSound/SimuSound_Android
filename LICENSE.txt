@@ -1,0 +1,21 @@
+All files under the following paths have their respective licenses, unless otherwise specified within each file or folder:
+
+app_yolov5: BSD 3-Clause License
+License file: LICENSE_BSD_3_CLAUSE_NCNN.txt
+Reference: https://github.com/Tencent/ncnn, https://github.com/nihui/ncnn-android-yolov5
+
+opencv4_3_0_contrib: BSD 3-Clause License
+License file: LICENSE_BSD_3_CLAUSE_OPENCV.txt
+Reference: https://github.com/opencv/opencv/blob/4.3.0/LICENSE
+
+libuvccamera, usbCameraCommon, app/src/main/java/com/SimuSound/USBCamera.java, app/src/main/java/com/SimuSound/USBCamera3.java: Apache 2.0 License
+License file: LICENSE_APACHE_2_USBCAMERA.txt
+Reference: https://github.com/saki4510t/UVCCamera
+
+app/src/main/cpp/flite: Custom
+License file: LICENSE_FLITE.txt
+Reference: https://github.com/festvox/flite
+
+
+ALl other files are licensed under the GNU AGPL v3 license.
+License file: LICENSE_AGPL_V3.txt

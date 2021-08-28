@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SimuSoundApp</string>
+
+    <!-- Content descriptions for images -->
+    <string name="product_logo">Product Logo</string>
+    <string name="company_logo">Company Logo</string>
+
+    <!-- Items for main panel -->
+    <string name="start_button">Start System</string>
+    <string name="yolo_button">Test YOLO</string>
+    <string name="gyro_acc">Gyro + Accel</string>
+
+    <!-- Strings for 'run system' panel -->
+    <string name="stop_button">Stop System</string>
+
+    <!-- strings for gyro and acceleration -->
+    <string name="ccw">Counter Clockwise</string>
+    <string name="cw">Clockwise</string>
+    <string name="gyrox">Gyro X Axis</string>
+    <string name="gyroy">Gyro Y Axis</string>
+    <string name="gyroz">Gyro Z Axis</string>
+    <string name="accx">Acc X Axis</string>
+    <string name="accy">Acc Y Axis</string>
+    <string name="accz">Acc Z Axis</string>
+    <string name="stereo">stereo matching</string>
+</resources>

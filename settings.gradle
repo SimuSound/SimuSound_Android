@@ -1,0 +1,7 @@
+include ':opencv4_3_0_contrib'
+project(':opencv4_3_0_contrib').projectDir = new File('opencv4_3_0_contrib')
+include ':usbCameraCommon'
+include ':libuvccamera'
+include ':app_yolov5'
+include ':app'
+rootProject.name = "SimuSoundApp"

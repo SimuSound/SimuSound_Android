@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="632dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/Product_Logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/product_logo"
+            app:srcCompat="@drawable/product_logo" />
+
+        <ImageView
+            android:id="@+id/Company_Logo"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:contentDescription="@string/company_logo"
+            app:srcCompat="@drawable/exassist_companylogo" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="50dp" />
+
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#4290EF"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/start_button" />
+
+        <Button
+            android:id="@+id/test_yolo_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/yolo_button" />
+
+        <Button
+            android:id="@+id/gyro_acc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#ED3737"
+            android:text="@string/gyro_acc" />
+
+        <Button
+            android:id="@+id/stereo_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#ED3737"
+            android:text="@string/stereo" />
+
+        <Button
+            android:id="@+id/usb_camera_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#ED3737"
+            android:text="usb cameras" />
+
+        <Button
+            android:id="@+id/final_app_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#4290EF"
+            android:fontFamily="sans-serif-black"
+            android:text="final app" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
