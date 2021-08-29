@@ -1,6 +1,6 @@
 All files under the following paths have their respective licenses, unless otherwise specified within each file or folder:
 
-app_yolov5: BSD 3-Clause License
+app_yolov5, app/src/main/assets/yolov5s.bin, app/src/main/assets/yolov5s.param: BSD 3-Clause License
 License file: LICENSE_BSD_3_CLAUSE_NCNN.txt
 Reference: https://github.com/Tencent/ncnn, https://github.com/nihui/ncnn-android-yolov5
 
